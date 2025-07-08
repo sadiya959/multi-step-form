@@ -19,6 +19,7 @@ const Header = ({ state }) => {
           1
         </div>
         <span className="mt-2 font-medium">Profile</span>
+        <span className="mt-2 font-medium  text-gray-400">fill your infomation</span>
       </div>
       {/* step two */}
       <div
@@ -36,6 +37,9 @@ const Header = ({ state }) => {
           2
         </div>
         <span className="mt-2 font-medium">Contact</span>
+        <span className="mt-2 font-medium text-gray-400">provide your contact</span>
+
+
       </div>
 
       {/* step three */}
@@ -53,6 +57,8 @@ const Header = ({ state }) => {
           3
         </div>
         <span className="mt-2 font-medium">Confirm</span>
+        <span className="mt-2 font-medium  text-gray-400">please confirm your info</span>
+
       </div>
     </div>
   );
